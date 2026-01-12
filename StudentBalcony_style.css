@@ -399,7 +399,12 @@ body .linking-section {
         #resetBtn {
             background-color: #f5f5f5;
         }
-     
+
+        .add-on{
+          position:relative;
+          left: 155px;
+        }
+
         .Banner1 .banner1-image {
          position: absolute;
          top: 100%;
@@ -733,6 +738,7 @@ body .linking-section {
   }
 
 }
+
 
 
 
