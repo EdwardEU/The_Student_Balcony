@@ -87,7 +87,9 @@
      <section class="konfigurator-section" id="ZumKonfigurator">
         <div class="configurator">
           <h2 Class="section-title" data-section="Configurator" data-value="Title">Configurator</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
             <div class="form-group">
+                <input type="hidden" name="access_key" value="75bea939-737b-4df2-b552-ece5751c63ed">
                 <label for="name" data-section="Contact" data-value="Title7">Your Name</label>
                 <input type="text" id="name" name="name" required>
             </div>
@@ -117,12 +119,16 @@
                 <img src="deck120_60.png" alt="120x60 cm">
                 <p>120 cm Large × 60 cm Width</p>
             </div>
+             <div class="option">
+                <p>wähle von 1 bis 4, um zu bestellen!<p style="color: red">*</p></p>
+                <input type="number" style="width: 100px;"  value="add" name="Deine Wahl" min="1" max="4" required>    
+            </div>
             <div class="add-on">
-                <img src="addonsit.gif" style="width: 150px; height: 105px;"><input type="checkbox" value="checked">
+                <img src="addonsit.gif" style="width: 150px; height: 105px;">
                 <p></p>
-            </div> 
+                <textarea name="message" placeholder="schreib JA zur Bestellung!"></textarea>
+            </div>            
           </div>
-        
           <div class="preview-container">
             <h3 data-section="Configurator" data-value="Selection">Your selection:</h3>
             <img id="productPreview" src="placeholder.jpg" alt="Stück:"><img id="productPreview" src="Vorschaubild Student Balcony.png" alt="Stück">
@@ -136,6 +142,7 @@
         </div>
        
         <script src="StudentBalconyKonfiguratorscript.js"></script>
+        <script src="scrpt_SK.js"></script>
       </section>
 
      <!--Linking Section-->
@@ -240,6 +247,7 @@
 </body>
 
 </html>
+
 
 
 
