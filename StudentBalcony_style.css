@@ -186,7 +186,7 @@ header .navbar {
 .hero-section .hero-details .title {
   font-size: var(--font-size-xx1);
   color: rgb(46, 45, 45);
-  font-family: "Miniver", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .hero-section .hero-details .subtitle {
@@ -734,6 +734,7 @@ body .linking-section {
   }
 
 }
+
 
 
 
