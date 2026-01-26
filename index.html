@@ -90,11 +90,11 @@
             <form action="https://api.web3forms.com/submit" method="POST">
             <div class="form-group">
                 <input type="hidden" name="access_key" value="75bea939-737b-4df2-b552-ece5751c63ed">
-                <label for="name" data-section="Contact" data-value="Title7">Your Name</label>
+                <label for="name" data-section="Contact" data-value="Title7">Your Name<p style="color: red">*</p></label>
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-                <label for="email" data-section="Contact" data-value="Title8">Your E-Mail Address</label>
+                <label for="email" data-section="Contact" data-value="Title8">Your E-Mail Address<p style="color: red">*</p></label>
                 <input type="email" id="email" name="email" required>
             </div>
           <p Class="section-subtitle" data-section="Configurator" data-value="Line1">Here you can choose the dimensions of your table top for the Student Balcony:</p>
@@ -140,7 +140,6 @@
           </div>
           
           <div class="controls">
-            <button id="resetBtn" data-section="Configurator" data-value="Button1">Reset</button>
             <button type="submit">Submit Form</button>
           </div>
         </form>
@@ -252,6 +251,7 @@
 </body>
 
 </html>
+
 
 
 
